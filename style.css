@@ -61,50 +61,5 @@ main {
 }
 
 .pdf-container {
-    width: 100%;
-    height: 600px;
-    border: 1px solid #ccc;
-    overflow: hidden;
-}
-
-.pdf-container iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-button {
-    padding: 10px 10px;
-    font-size: 12px;
-    cursor: pointer;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 600px) {
-    nav ul {
-        flex-direction: column; /* Stack the items vertically */
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0; /* Space out the items vertically */
-    }
-
-    header h1 {
-        font-size: 1.5em; /* Adjust the font size for smaller screens */
-        overflow: visible; /* Ensure the text is visible */
-        white-space: nowrap; /* Prevent the text from wrapping */
-    }
-
-    .header-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header-container h1,
-    .header-container a {
-        width: 100%;
-        text-align: center;
-        margin: 5px 0;
-    }
+    background-color: white;
 }
